@@ -1,4 +1,4 @@
-import { dFormat } from '../';
+import { dFormat } from '..';
 import moment from 'moment-timezone';
 
 describe('dFormat', () => {

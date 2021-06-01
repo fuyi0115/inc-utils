@@ -1,4 +1,4 @@
-# API
+# API Reference
 
 ## nFormat
 
@@ -177,27 +177,3 @@ drFormat(dateRange, 'YYYY年MM月DD日', ['start_dt', 'end_dt']); // { start_dt:
 **返回值**
 
 格式化后的日期范围或指定 key 的对象。
-
-## url
-
-使用 `encodeURIComponent` 或 `decodeURIComponent` 对 URI 进行编码或解码
-
-**Demo**
-
-```js
-const newUrl = url('http://www.w3school.com.cn/My first/'); // 'http%3A%2F%2Fwww.w3school.com.cn%2FMy%20first%2F'
-url(newUrl, true); // 'http://www.w3school.com.cn/My first/'
-```
-
-**语法**
-
-> url(URIstring[, isDecode])
-
-**参数**
-
-- `URIstring`：（`string`）日期范围。
-- `isDecode`：（可选，`boolean`，默认 `false`）, 是否进行解码。
-
-**返回值**
-
-编码或解码后的 URI。

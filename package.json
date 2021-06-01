@@ -1,8 +1,8 @@
 {
-  "private": true,
   "name": "inc-utils",
   "version": "1.0.0",
   "description": "A javascript library for formatting and manipulating numbers, strings and dates.",
+  "homepage": "https://fuyi0115.github.io/inc-utils",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -11,7 +11,7 @@
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "umi-test --watch",
+    "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
   "main": "lib/index.js",
@@ -36,7 +36,6 @@
     ]
   },
   "dependencies": {
-    "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "numeral": "^2.0.6"
   },
