@@ -6,7 +6,7 @@ A javascript library for formatting and manipulating numbers, strings and dates.
 
 ## Usage & Guide
 
-To view more online examples and docs, please visit dumi official [site](https://fuyi0115.github.io/inc-utils).
+To view more online examples and docs, please visit [site](https://fuyi0115.github.io/inc-utils).
 
 ## Development
 
