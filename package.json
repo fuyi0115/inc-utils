@@ -2,7 +2,7 @@
   "name": "inc-utils",
   "version": "1.0.0",
   "description": "A javascript library for formatting and manipulating numbers, strings and dates.",
-  "homepage": "https://fuyi0115.github.io/inc-utils",
+  "homepage": "https://wjcj.github.io/inc-utils",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -21,8 +21,7 @@
   "files": [
     "dist",
     "lib",
-    "es",
-    "package.json"
+    "es"
   ],
   "gitHooks": {
     "pre-commit": "lint-staged"

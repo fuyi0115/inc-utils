@@ -1,4 +1,4 @@
-# Getting started
+# 开始
 
 ## 简介
 
